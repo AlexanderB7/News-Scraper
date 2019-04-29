@@ -1,0 +1,38 @@
+<div class="page-header" id="news-header">
+    <div class="row header-row">
+        <div class="col-sm-12 col-md-3" id="news-title">
+            <h1>The News</h1>
+            <p>Get your daily dose of information</p>
+        </div>
+        <div class="col-sm-12 col-md-3" id="news-linkbar">
+            <a href="/">
+                <img src="https://image.flaticon.com/icons/svg/25/25694.svg" height="25px" width="25px">
+                Home </a>
+            <a href="/articles">
+                <img src="https://image.flaticon.com/icons/png/512/14/14711.png" height="25px" width="25px">
+                Articles</a>
+            <a href="/saved">
+                <img src="https://cdn0.iconfinder.com/data/icons/mobile-and-smart-devices-4/512/171-512.png"
+                    height="25px" width="25px">
+                Favorites</a>
+        </div>
+        <div class="col-sm-12 col-md-6" id="news-toolbar">
+            <button id="news-drop" class="btn btn-lg dropdown" data-toggle="dropdown">
+                <a aria-expanded="false" aria-haspopup="true" role="button" class="dropdown-toggle">
+                    <span id="selected">Select News Source</span><span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <p>Left-Leaning</p>
+                    <li bias="left" data-id="nyt"> New York Times</li>
+                    <div class="dropdown-divider"></div>
+                    <p>Centerist</p>
+                    <li bias="center" data-id="ap"> Associated Press</li>
+                    <div class="dropdown-divider"></div>
+                    <p>Right-Leaning</p>
+                    <li bias="right" data-id="dw"> Daily Wire</li>
+                </ul>
+            </button>
+            <button type="button" id="scrape-button" class="btn btn-success btn-lg"> Scrape
+                Articles</button>
+        </div>
+    </div>
+</div>

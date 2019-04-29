@@ -1,0 +1,135 @@
+<!doctype HTML>
+<html>
+
+<head>
+    <!-- Boostrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- CSS -->
+    <link href="" rel="stylesheet">
+    <style>
+        body {
+            background: url("https://i.pinimg.com/originals/11/b6/76/11b6769c8f2ea91b25fa0bb10bcaf4ab.jpg") no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+        @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+        * {
+            box-sizing: border-box;
+            font-family: 'Source Sans Pro', sans-serif;
+        }
+        #news-title {
+            text-align: center;
+        }
+        #news-header {
+            height: fit-content;
+            background-color: rgba(255, 255, 255, 0.8);
+        }
+        #news-linkbar {
+            margin-top: 2em;
+            text-align: center;
+        }
+        #news-toolbar {
+            text-align: center;
+            margin-top: 1.5em;
+        }
+        #news-linkbar a {
+            color: black;
+            padding: 0.7em;
+        }
+        #news-linkbar a:hover,
+        #news-toolbar a:hover {
+            cursor: pointer;
+        }
+        #news-toolbar p {
+            text-decoration: underline;
+        }
+        #clear-button {
+            margin: auto;
+        }
+        #clear-row {
+            text-align: right;
+            padding: 1em;
+        }
+        .page-header {
+            width: 100%;
+        }
+        .header-row {
+            width: 100%;
+        }
+        .btn-info,
+        .btn-info:active,
+        .btn-info:visited {
+            background-color: rgba(125, 12, 139, 1) !important;
+            border-color: rgb(97, 10, 109) !important;
+        }
+        .btn-info:focus {
+            box-shadow: 0 0 0 .2rem rgb(176, 20, 197) !important;
+        }
+        .btn-info:hover {
+            border-color: rgb(54, 8, 58) !important;
+            background-color: rgb(97, 10, 109) !important;
+        }
+        #news-drop ul li,
+        #news-drop ul p {
+            padding: 0.5em;
+        }
+        #body-sec {
+            margin: auto;
+            margin-top: 2em;
+            height: fit-content;
+            background-color: rgba(255, 255, 255, 0.8);
+            border: 3px solid black;
+        }
+        #no-scrape-sec {
+            margin: auto;
+            margin-top: 20%;
+            height: 5em;
+            background-color: rgba(255, 255, 255, 0.8);
+            border: 3px solid black;
+        }
+        #no-scrape-p {
+            text-align: center;
+            margin: auto;
+            margin-top: 1.4em;
+        }
+        .news-item {
+            margin-top: 1em;
+            margin-bottom: 1em;
+            padding: 0.6em;
+        }
+        .news-item h1 {
+            font-size: 2em;
+            text-decoration: underline;
+        }
+        .news-icon:hover {
+            cursor: pointer;
+        }
+    </style>
+
+    <title>News Scraper</title>
+</head>
+
+<body>
+    {{{ body }}}
+
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <!-- AJAX -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <!-- Bootstrap Javascript -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <!-- Handlebars JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.6/handlebars.min.js"></script>
+    <!-- App Javascript -->
+    <script src="./script/script.js"></script>
+</body>
+
+</html>

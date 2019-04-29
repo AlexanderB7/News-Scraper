@@ -1,0 +1,18 @@
+<div id="news-id-{{this._id}}" class="row news-item">
+    <div class="col-11">
+        <h1>{{this.title}}</h1>
+        <p>{{this.subhead}}</p>
+        <a target="_blank" href={{this.link}}>
+            <img src="https://image.flaticon.com/icons/svg/32/32329.svg" height="20px" width="20px">
+            Read More</a>
+    </div>
+    <div class="col-1">
+        <div class="row">
+            <a href="/unfav/{{this.id}}">
+                <img class="news-icon" id="trash-{{this._id}}" title="Click to delete article"
+                    src="https://cdn2.iconfinder.com/data/icons/apple-classic/100/Apple_classic_10Icon_5px_grid-02-512.png"
+                    height="50px" width="50px">
+            </a>
+        </div>
+    </div>
+</div>

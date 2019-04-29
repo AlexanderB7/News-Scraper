@@ -1,0 +1,17 @@
+{{> header}}
+
+<div class="container">
+    {{#if Articles}}
+    <div id="body-sec" class="col-12">
+        {{#each Articles}}
+        {{#if favorited}}
+        {{>favorite}}
+        {{/if}}
+        {{/each}}
+    </div>
+    {{else}}
+    <div id="no-scrape-sec" class="col-sm-12 col-md-10">
+        <p id="no-scrape-p">You have not yet favorited any articles.</p>
+    </div>
+    {{/if}}
+</div>
